@@ -53,7 +53,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <a
-              href="/images/RajkumarRamanathanResume.pdf" // Replace with the actual path to your resume file
+              href="public/RajkumarRamanathanResume.pdf" // Replace with the actual path to your resume file
               download
               className="btn btn-primary flex items-center gap-2"
             >
