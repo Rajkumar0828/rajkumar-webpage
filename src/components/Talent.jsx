@@ -11,7 +11,7 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: 'images/.net.png',
+      imgSrc: 'images/net.png',
       label: 'Dotnet',
       desc: 'WebApi'
     },
