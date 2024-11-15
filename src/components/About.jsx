@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                )) 
             }
-            <img src="/images/RZ.jpeg" 
+            <img src="images/RZ.jpeg" 
             alt="Logo" 
             width={100}
             height={100}

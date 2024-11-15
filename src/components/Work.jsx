@@ -9,25 +9,25 @@ import React from 'react'
 import ProjectCard from './ProjectCard';
 const works = [
     {
-      imgSrc: '/images/Heart disease data.jpeg',
+      imgSrc: 'images/Heart disease data.jpeg',
       title: 'Visualizing and Predicting Heart Disease using Interactive Dashboard ',
       tags: ['IBM WATSON', 'COGNOS', 'KNN'],
       
     },
     {
-      imgSrc: '/images/BMTNN.jpeg',
+      imgSrc: 'images/BMTNN.jpeg',
       title: 'Sentiment Analysis Using Blended Multilingustic System',
       tags: ['WSD', 'TNN'],
       
     },
     {
-      imgSrc: '/images/Online survey.jpeg',
+      imgSrc: 'images/Online survey.jpeg',
       title: 'Online Survey System',
       tags: ['Development', 'API','Docker','Jenkins'],
       
     },
     {
-      imgSrc: '/images/LXP.jpeg',
+      imgSrc: 'images/LXP.jpeg',
       title: 'Learning Experience Platform',
       tags: ['Web-api', 'Development','Dotnet'],
       

@@ -17,7 +17,7 @@ const Hero = () => {
         <div>
           <div className="flex items-center gap-3">
             <figure className="img-box  rounded-lg">
-              <img src="/images/Rajkumar Ramanathan_11987.jpg"
+              <img src="images/Rajkumar Ramanathan_11987.jpg"
                 width={35}
                 height={35}
                 alt="rajkumar" className="img-cover" />
@@ -53,7 +53,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <a
-              href="public/RajkumarRamanathanResume.pdf" // Replace with the actual path to your resume file
+              href="images/RajkumarRamanathanResume.pdf" // Replace with the actual path to your resume file
               download
               className="btn btn-primary flex items-center gap-2"
             >
