@@ -11,77 +11,77 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: '/images/.net.png',
+      imgSrc: 'images/.net.png',
       label: 'Dotnet',
       desc: 'WebApi'
     },
     {
-      imgSrc: '/images/ef-logo.png',
+      imgSrc: 'images/ef-logo.png',
       label: 'Entity Framework',
       desc: 'Webapi using ADO.NET'
     },
     {
-      imgSrc: '/images/EF-CORE.png',
+      imgSrc: 'images/EF-CORE.png',
       label: 'EntityFramwork core',
       desc: 'ASP .Net Core'
     },
     {
-      imgSrc: '/images/nunitpng.png',
+      imgSrc: 'images/nunitpng.png',
       label: 'N UNIT',
       desc: 'Testing'
     },
     {
-      imgSrc: '/images/seleinum.jfif',
+      imgSrc: 'images/seleinum.jfif',
       label: 'Selenium',
       desc: 'Automation Testing'
     },
     {
-      imgSrc: '/images/Javascript.png',
+      imgSrc: 'images/Javascript.png',
       label: 'Javascript',
       desc: 'Javascript using ES6'
     },
     {
-      imgSrc: '/images/React.png',
+      imgSrc: 'images/React.png',
       label: 'React',
       desc: 'React with Typescript'
     },
     {
-      imgSrc: '/images/mongodb.png',
+      imgSrc: 'images/mongodb.png',
       label: 'MongoDB',
       desc: 'Database'
     },
     {
-      imgSrc: '/images/Express js.png',
+      imgSrc: 'images/Express js.png',
       label: 'Express JS',
       desc: 'Node with Express'
     },
     {
-      imgSrc: '/images/Tailwindcss.png',
+      imgSrc: 'images/Tailwindcss.png',
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/Azure.png',
+      imgSrc: 'images/Azure.png',
       label: 'Azure Cloud',
       desc: 'Cloud Computing'
     },
     {
-      imgSrc: '/images/devops.png',
+      imgSrc: 'images/Jenkins.png',
       label: 'DevOps',
       desc: 'Build and Deployment'
     },
     {
-      imgSrc: '/images/Jenkins.png',
+      imgSrc: 'images/Jenkins.png',
       label: 'Jenkins',
       desc: 'CI/CD'
     },
     {
-      imgSrc: '/images/Datascience.jfif',
+      imgSrc: 'images/Datascience.jfif',
       label: ' DataScience & ML',
       desc: 'AI'
     },
     {
-      imgSrc: '/images/kaggle.png',
+      imgSrc: 'images/kaggle.png',
       label: 'Kaggle',
       desc: 'Datasets and GPUs'
     },
