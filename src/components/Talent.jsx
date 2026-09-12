@@ -10,8 +10,18 @@ import SkillCard from './SkillCard';
 
 
 const skillItem = [
+     {
+      imgSrc: 'images/Python.png',
+      label: 'Python',
+      desc: 'Programming Language'
+    },
+     {
+      imgSrc: 'images/Fastapi.png',
+      label: 'FastAPI',
+      desc: 'Web Framework'
+    },
     {
-      imgSrc: 'images/.net.png',
+      imgSrc: 'images/Dotnet.png',
       label: 'Dotnet',
       desc: 'WebApi'
     },
@@ -22,7 +32,7 @@ const skillItem = [
     },
     {
       imgSrc: 'images/EF-CORE.png',
-      label: 'EntityFramwork core',
+      label: 'Entity Framework Core',
       desc: 'ASP .Net Core'
     },
     {
@@ -36,9 +46,9 @@ const skillItem = [
       desc: 'Automation Testing'
     },
     {
-      imgSrc: 'images/Javascript.png',
-      label: 'Javascript',
-      desc: 'Javascript using ES6'
+      imgSrc: 'images/Mlflow.png',
+      label: 'ML Flow',
+      desc: 'Model Deployment'
     },
     {
       imgSrc: 'images/React.png',
@@ -50,10 +60,15 @@ const skillItem = [
       label: 'MongoDB',
       desc: 'Database'
     },
+     {
+      imgSrc: 'images/Cassendra.png',
+      label: 'Cassandra',
+      desc: 'NoSQL Database'
+    },
     {
-      imgSrc: 'images/Express js.png',
-      label: 'Express JS',
-      desc: 'Node with Express'
+      imgSrc: 'images/Hasi Corp Vault.png',
+      label: 'HashiCorp Vault',
+      desc: 'Secrets Management'
     },
     {
       imgSrc: 'images/Tailwindcss.png',
@@ -70,10 +85,10 @@ const skillItem = [
       label: 'DevOps',
       desc: 'Build and Deployment'
     },
-    {
-      imgSrc: 'images/Jenkins.png',
-      label: 'Jenkins',
-      desc: 'CI/CD'
+     {
+      imgSrc: 'images/Argocd.png',
+      label: 'ArgoCD',
+      desc: 'GitOps Continuous Delivery'
     },
     {
       imgSrc: 'images/Datascience.jfif',
@@ -85,6 +100,78 @@ const skillItem = [
       label: 'Kaggle',
       desc: 'Datasets and GPUs'
     },
+     {
+      imgSrc: 'images/hashicorp-terraform-logo.png',
+      label: 'HashiCorp Terraform',
+      desc: 'Infrastructure as Code'
+    },
+     {
+      imgSrc: 'images/redis.png',
+      label: 'Redis',
+      desc: 'In-Memory Data Structure Store'
+    },
+     {
+      imgSrc: 'images/Ansible.png',
+      label: 'Ansible',
+      desc: 'Automation'
+    },
+     {
+      imgSrc: 'images/istio.jpeg',
+      label: 'Istio',
+      desc: 'Service Mesh'
+    },
+     {
+      imgSrc: 'images/Jaeger.png',
+      label: 'Jaeger',
+      desc: 'Distributed Tracing'
+    },
+     {
+      imgSrc: 'images/KrakenD.png',
+      label: 'KrakenD',
+      desc: 'API Gateway'
+    },
+     {
+      imgSrc: 'images/kubernetes.png',
+      label: 'Kubernetes',
+      desc: 'Container Orchestration'
+    },
+     {
+      imgSrc: 'images/OpenTelementry.png',
+      label: 'OpenTelemetry',
+      desc: 'Observability'
+    },
+     {
+      imgSrc: 'images/opensearch.png',
+      label: 'OpenSearch',
+      desc: 'Search Engine'
+    },
+     {
+      imgSrc: 'images/Prometheus.png',
+      label: 'Prometheus',
+      desc: 'Monitoring'
+    },
+    
+     {
+      imgSrc: 'images/Grafana.png',
+      label: 'Grafana',
+      desc: 'Data Visualization'
+    },
+     {
+      imgSrc: 'images/Rancher.png',
+      label: 'Rancher',
+      desc: 'Kubernetes Management'
+    },
+     {
+      imgSrc: 'images/KEDA.png',
+      label: 'KEDA',
+      desc: 'Kubernetes Event-Driven Autoscaling'
+    },
+     {
+      imgSrc: 'images/KATA.png',
+      label: 'KATA',
+      desc: 'Container Runtime'
+    },
+    
   ];
 
 
