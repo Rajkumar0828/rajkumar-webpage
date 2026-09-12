@@ -5,8 +5,7 @@
  */
 
 
-import React from 'react'
-import { ButtonPrimary, ButtonOutline } from './Button';
+import { ButtonOutline } from './Button';
 import '../index.css'
 
 const Hero = () => {
@@ -53,7 +52,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <a
-              href="public\RAJKUMAR RAMANATHAN Resume (1).pdf" // Replace with the actual path to your resume file
+              href={`${import.meta.env.BASE_URL}RajkumarRamanathanResume.pdf`}
               download
               className="btn btn-primary flex items-center gap-2"
             >
