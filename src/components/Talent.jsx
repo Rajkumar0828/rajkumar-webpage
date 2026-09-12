@@ -90,6 +90,8 @@ const skillItem = [
 
 
 const Talent = () => {
+  const marqueeItems = [...skillItem, ...skillItem];
+
   return (
    <section className="section">
     <div className="container">
@@ -102,21 +104,18 @@ const Talent = () => {
 
         </p>
 
-        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] reveal-up">
-
-            {
-                skillItem.map(({imgSrc, label, desc}, key)=>
-                (
-                   <SkillCard
-                     key={key}
-                     imgSrc={imgSrc}
-                     label ={label}
-                     desc ={desc}
-                     classes="reveal-up"
-                   
-                   />
-                ))
-            }
+        <div className="marquee-shell reveal-up">
+          <div className="marquee-track">
+            {marqueeItems.map(({imgSrc, label, desc}, key) => (
+              <SkillCard
+                key={`${label}-${key}`}
+                imgSrc={imgSrc}
+                label={label}
+                desc={desc}
+                classes="min-w-[260px] shrink-0"
+              />
+            ))}
+          </div>
         </div>
     </div>
 

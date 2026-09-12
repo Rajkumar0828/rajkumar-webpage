@@ -27,7 +27,7 @@ const Hero = () => {
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
 
-              Working at Relevantz
+              Working at Ford via RLE International
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch]
@@ -53,7 +53,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <a
-              href="images/RajkumarRamanathanResume.pdf" // Replace with the actual path to your resume file
+              href="public\RAJKUMAR RAMANATHAN Resume (1).pdf" // Replace with the actual path to your resume file
               download
               className="btn btn-primary flex items-center gap-2"
             >

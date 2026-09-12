@@ -58,6 +58,49 @@ body {
   @apply pt-20 lg:pt-32
 }
 
+.marquee-shell {
+  @apply relative overflow-hidden rounded-3xl border border-zinc-50/10 bg-zinc-950/60 py-4;
+}
+
+.marquee-shell::before,
+.marquee-shell::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.marquee-shell::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(9, 9, 11, 1), rgba(9, 9, 11, 0));
+}
+
+.marquee-shell::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(9, 9, 11, 1), rgba(9, 9, 11, 0));
+}
+
+.marquee-track {
+  @apply flex w-max gap-3;
+  animation: marquee-left-to-right 22s linear infinite;
+}
+
+.marquee-shell:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-left-to-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .reveal-up {
    @apply translate-y-20 opacity-0
 }
