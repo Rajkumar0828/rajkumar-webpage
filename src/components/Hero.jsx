@@ -52,7 +52,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <a
-              href={`${import.meta.env.BASE_URL}RajkumarRamanathanResume.pdf`}
+              href={`${import.meta.env.BASE_URL}RAJKUMAR%20RAMANATHAN%20Resume.pdf`}
               download
               className="btn btn-primary flex items-center gap-2"
             >
